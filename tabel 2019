@@ -3,38 +3,86 @@
 <head>
 <title>tabels</title>
 <meta charset="UTF-8">
+  <style>
+    table{
+      width:100%;
+      border-collapse:collapse;
+    }
+    table, th, td, tbody {
+     border:1px solid #555
+    }
+    thead{
+      background:#eaeaea
+    }
+    tr th{
+      padding:10px 2px;
+    }
+    tr td{
+      padding: 5px;
+       text-align:center;
+    }     
+    td:first-child{
+      font-weight:bold
+    }
+  </style>
 </head>
  <body>
-    <table border="1">
-
-
-      <tr>
-        <td>*</td>
-        <td> Luni</td>
-        <td> Marti</td>
-        <td> Miercuri</td>
-        <td> Joi</td>
-        <td> Vineri</td>
+    <table>
+      <thead>
         <tr>
-          <td>*</td>
-          <td> Matematica.</td>
-          <td> Istorie</td>
-          <td> Geografie</td>
-          <td> Bioligie</td>
-          <td> Tic</td>
+            <th></th>
+            <th> Luni</th>
+            <th> Marti</th>
+            <th> Miercuri</th>
+            <th> Joi</th>
+            <th> Vineri</th>
+            <th> Sambata</th>
+            <th> Duminica</th>
+          </tr>
+      </thead>
+      <tbody>
           <tr>
-            <td>*</td>
-            <td>Engleza </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td></td>
-
-
+          <td>8-9</td>
+          <td> Geografie</td>
+          <td> Engleza</td>
+          <td> Franceza</td>
+          <td> Sport</td>
+          <td> Romana</td>
+          <td rowspan="5"></td>
+          <td rowspan="5"></td>
+          </tr>
+        <tr>
+          <td>9-10</td>
+          <td> Istorie</td>
+          <td> Romana</td>
+          <td> Romana</td>
+          <td> Istorie</td>
+          <td> Matematica</td>
+        </tr>
+      <tr>
+          <td>10-11</td>
+          <td> Desen</td>
+          <td> Geografie</td>
+          <td>Geografie</td>
+          <td> Engleza</td>
+          <td> Desen</td>
       </tr>
-
-
+      <tr>
+          <td>11-12</td>
+          <td rowspan="2"> Matematica.</td>
+          <td> Sport</td>
+          <td> Muzica</td>
+          <td> Desen</td>
+          <td> Matematica</td>
+          </tr>
+      <tr>
+          <td>12-13</td>
+          <td> Istorie</td>
+          <td> Desen</td>
+          <td> Franceza</td>
+          <td> Geografie</td>
+          </tr>
+        </tbody>
+   </table>
  </body>
-
-
  </html>
