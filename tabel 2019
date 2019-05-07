@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>tabels</title>
+<meta charset="UTF-8">
+</head>
+ <body>
+    <table border="1">
+
+
+      <tr>
+        <td>*</td>
+        <td> Luni</td>
+        <td> Marti</td>
+        <td> Miercuri</td>
+        <td> Joi</td>
+        <td> Vineri</td>
+        <tr>
+          <td>*</td>
+          <td> Matematica.</td>
+          <td> Istorie</td>
+          <td> Geografie</td>
+          <td> Bioligie</td>
+          <td> Tic</td>
+          <tr>
+            <td>*</td>
+            <td>Engleza </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td></td>
+
+
+      </tr>
+
+
+ </body>
+
+
+ </html>
